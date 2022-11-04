@@ -1,0 +1,11 @@
+/* Conditional Logic */
+
+/* Hide Logged-In and Logged-Out Content */
+
+.cm-logged-in-condition .cm-hide-logged-in {
+	display: none!important;
+}
+
+.cm-logged-out-condition .cm-hide-logged-out {
+	display: none!important;
+}
