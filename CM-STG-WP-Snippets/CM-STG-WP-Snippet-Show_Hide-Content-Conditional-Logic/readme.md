@@ -1,1 +1,1 @@
-Just copy the code out of these files and paste them according to the CreatiqueMedia LLC | Ron The Web Dev blog post article here: 
+Just copy the code out of these files and paste them according to the CreatiqueMedia LLC | Ron The Web Dev blog post article here: https://blog.creatiquemedia.com/cm-post-0009-hide-show-using-wordpress-body-classes
