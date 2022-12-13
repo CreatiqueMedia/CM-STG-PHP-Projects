@@ -1,0 +1,222 @@
+/* Global Styles Go Here */
+
+:root {
+  --BackGroundColor: #080938;
+  --FormHeadingFontFamily: "Rubik Vinyl", cursive;
+  --FormPlaceHolderFontFamily: "Montserrat";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Specific Location Styles Here */
+
+/* Form Container */
+
+.kc--form--container {
+  background-color: #080938;
+  font-family: var(--FormHeadingFontFamily);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  padding: 2em 0 2em 0;
+  color: #fafafa;
+  flex-direction: column;
+  width: 100%;
+  min-width: 375px;
+}
+
+.kc--form--container h1 {
+  font-size: 4em;
+  margin: 0 0 1.5em 0;
+}
+
+.kc--form--container input {
+  padding: 3em 8em 3em 8em;
+  text-align: left;
+  border-radius: 1em;
+  font-family: var(--FormPlaceHolderFontFamily);
+  font-size: 1em;
+  width: 100%;
+  color: #080938;
+  margin: 0 0 1em 0;
+}
+
+.kc--form--container input::placeholder {
+  color: #080938;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.kc--form--container input[type="text"] {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.kc--form--container label {
+  margin: 2em 0 2em 0;
+  font-size: 2.5em;
+  display: block;
+  text-align: center;
+}
+
+.kc--form--container span {
+  margin: 0 1em 0 0;
+}
+
+/* Form Wrapper */
+
+.kc--form--section--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Form */
+
+.kc--form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Section 1 */
+
+.kc--form--section--1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.kc--form--section--1--fname {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  margin: 0 1em 0 0;
+}
+
+.kc--form--section--1--lname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  margin: 0 0 0 1em;
+}
+
+/* Section 2 */
+
+.kc--form--section--2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.kc--form--section--2--email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  margin: 0 1em 0 0;
+}
+
+.kc--form--section--2--confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  margin: 0 0 0 1em;
+}
+
+/* Section 3 */
+
+.kc--form--section--3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.kc--form--section--3--subject {
+  width: 50%;
+  margin: 4em 0 0 0;
+}
+
+.kc--form--section--3--message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 0 8em 0;
+  width: 100%;
+}
+
+.kc--form--section--3--message textarea {
+  padding: 4em 8em 4em 8em;
+  border-radius: 1em;
+  font-family: var(--FormPlaceHolderFontFamily);
+  color: #080938;
+  font-size: 2em;
+  font-weight: bold;
+  width: 80%;
+}
+
+/* Form Button */
+
+.kc--form button {
+  padding: 1em 4em 1em 4em;
+  border-radius: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  background-color: rgb(8, 9, 56, 0.6);
+  color: #fafafa;
+  border: solid #fafafa 1px;
+  font-family: var(--FormHeadingFontFamily);
+}
+
+.kc--form--submit--btn__shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.kc--form--submit--btn__shrink:hover,
+.shrink-on-hover:focus,
+.shrink-on-hover:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
